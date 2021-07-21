@@ -1,12 +1,13 @@
 .header
 {
 	width: 100%;
+	/*max-width: 1219px;*/
 	/*max-width: 2011px;*/
 	background-color: #007765;
 	position: fixed;
 	background-size: cover;
 	/*padding: 21px 0px 21px 0px;*/
-	height: 84px;
+	/*height: 84px;*/
 	top: 0;
 	left: 0;
 	margin: 0 auto;
@@ -14,6 +15,7 @@
 
 .container
 {
+	box-sizing: border-box;
 	max-width: 1219px;
 	margin: 0 auto;
 	padding: 0 55px;
@@ -106,7 +108,7 @@
 .piper_text
 {
 	text-align: center;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 72px;
@@ -143,7 +145,56 @@ div section
 	padding-bottom: 92px;
 }
 
-#problem
+.problem_txt
+{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	/*margin-top: 130px;*/
+}
+
+.problem_text
+{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+}
+
+.hero
+{
+	background-image: url(../img/image_2.svg);
+	background-size: cover;
+	padding-top: 128px;
+	padding-bottom: 128px;
+	background-position: center center;
+}
+
+.hero_txt
+{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.PPC
+{
+	padding-top: 48px;
+	background-color: #FFFFFF;
+	padding-bottom: 92px;
+}
+
+.ppc_head_txt
 {
 	font-family: Roboto;
 	font-style: normal;
@@ -152,15 +203,113 @@ div section
 	line-height: 75px;
 	text-align: center;
 	color: #007765;
+	/*margin-top: 130px;*/
 }
 
-.problem_text
+.ppc_txt_first
 {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 32px;
 	line-height: 37px;
-
 	color: #000000;
+	text-align: justify;
+	
+}
+
+.ppc_logo
+{
+	/*margin-right: 48px;*/
+	float: left;
+	margin: 0 48px 0 0;
+}
+
+#anchor_1 #anchor_2 #anchor_3
+{
+    position: absolute;
+	margin-top: -134px;
+}
+
+.team
+{
+	background: #EEEEEE;
+	padding-top: 58px;
+	padding-bottom: 112px;
+}
+
+.team_head_txt
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+	padding-bottom: 55px;
+	
+}
+
+.members
+{
+	margin: 24px 91px 0px 91px;	
+}
+
+.member_name
+{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+	text-align: center;
+	/*padding-top: 5px;*/
+}
+
+.member_bio
+{
+	font-family: Roboto, sans-serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;	
+	text-align: center;
+	/*padding-bottom: 60px;*/
+}
+
+/*Другой вариант*/
+.team_members
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.member
+{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 24px;
+    margin-bottom: 30px;
+    flex-basis: 33%;
+}
+/*-----------------------------------------------*/
+.footer
+{
+	padding-top: 50px;
+	padding-bottom: 62px;
+	background: #333333;
+}
+
+.footer_txt
+{
+	font-family: Roboto, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	color: #FFFFFF;
 }
